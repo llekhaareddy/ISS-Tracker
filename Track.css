@@ -1,0 +1,15 @@
+
+#myMap {
+  height: 300px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #892855;
+}
+
+.header {
+  font-size: 40px;
+}
