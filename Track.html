@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    
+      <!-- This link is required to use Leaflet.js styling -->
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+     
+     <!-- This script is required to use Leaflet.js javascript -->
+     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+         crossorigin=""></script>
+  </head>
+
+  <body>
+     
+    <h1 class="header">Where is the ISS?</h1>
+
+    <p>
+      <!--The span tag is used to group and style content-->
+      <!--This is the degree sign to use ° -->
+      <!-- TODO: Add latitude and longitude coords using span tag within the two <p> tags-->
+      Latitude: <span id ="lat"></span>°
+      <br />
+      Longitude: <span id ="lon"></span>°
+    </p>
+    
+ <div id="myMap">
+ </div>
+
+  </body>
+
+</html>
